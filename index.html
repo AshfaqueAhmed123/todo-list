@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Application</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-200 h-screen flex items-start justify-center">
+    <div class="max-w-md w-full bg-white shadow-md rounded-md overflow-hidden">
+        <div class="bg-gray-200 px-6 py-4">
+            <h2 class="text-lg font-semibold text-gray-800">Todo List</h2>
+        </div>
+        <div class="px-6 py-4">
+            <div class="flex items-center mb-4">
+                <input id="input" type="text" class="px-4 py-2 border border-gray-300 rounded-md w-full mr-2"
+                    placeholder="Add a new todo">
+                <button class="px-4 py-2 bg-blue-500 text-white rounded-md" id="add-btn">Add</button>
+            </div>
+            <ul id="todos-container">
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
